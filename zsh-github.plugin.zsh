@@ -51,8 +51,8 @@ tclone() {
 }
 
 pclone() {
-    mkdir -p $HOME/SAPDevelop/gh/tools/$1
-    cd $HOME/SAPDevelop/gh/tools/$1
+    mkdir -p $HOME/SAPDevelop/gh/com/$1
+    cd $HOME/SAPDevelop/gh/com/$1
     case $# in
         2) 
             gh repo clone $1/$2
